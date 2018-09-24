@@ -11,3 +11,8 @@
 /HelloWorld/.vs/HelloWorld/DesignTimeBuild
 /WaldoProgram/.vs/WaldoProgram/v15
 /WaldoProgram/.vs/WaldoProgram/DesignTimeBuild
+/CalculatorLib/.vs/CalculatorLib
+/CalculatorLib/CalculatorLib/bin/Debug/netstandard2.0
+/CalculatorLib/CalculatorLib/obj
+/CalculatorLib/CalculatorTests/bin/Debug/netcoreapp2.1
+/CalculatorLib/CalculatorTests/obj
