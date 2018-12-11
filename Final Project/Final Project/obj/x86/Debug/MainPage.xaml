@@ -20,79 +20,84 @@
         <Border Grid.Column="1" Background="Black"/>
 
         <!-- Current Forecast Layout -->
-        <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <Grid>
-                <StackPanel x:ConnectionId='4' Orientation="Vertical" HorizontalAlignment="Center" Name="currentResults">
-                    <TextBlock Text="Current Forecast" FontSize="60" Padding="50" HorizontalAlignment="Center" Foreground="White" FontFamily="Tahoma" />
+        <Viewbox>
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <Grid >
+                    <StackPanel x:ConnectionId='4' Orientation="Vertical" HorizontalAlignment="Center" Name="currentResults">
+                        <TextBlock Text="Current Forecast" FontSize="60" Padding="50" HorizontalAlignment="Center" Foreground="White" FontFamily="Tahoma" />
 
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20">
-                        <TextBlock Text="{Binding tempF}" FontSize="45" Foreground="White"/>
-                        <TextBlock Text="° F" FontSize="45" Foreground="White"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20">
+                            <TextBlock Text="{Binding tempF}" FontSize="45" Foreground="White"/>
+                            <TextBlock Text="° F" FontSize="45" Foreground="White"/>
+                        </StackPanel>
+
+                        <TextBlock Text="{Binding weather}" FontSize="45" HorizontalAlignment="Center" Padding="20" Foreground="White"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20">
+                            <TextBlock Text="Humidity: " FontSize="30" Foreground="White" Margin="0 0 9 0"/>
+                            <TextBlock Text="{Binding relativeHumidity}" FontSize="30" Foreground="White"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20">
+                            <TextBlock Text="Winds: " FontSize="30" Foreground="White" Margin="0 0 6 0"/>
+                            <TextBlock Text="{Binding windMph}" FontSize="30" Foreground="White"/>
+                            <TextBlock Text=" MPH " FontSize="30" Foreground="White" Margin="0 0 4 0"/>
+                            <TextBlock Text="{Binding windDir}" FontSize="30" Foreground="White"/>
+                        </StackPanel>
+
+                        <TextBlock Text="{Binding observationTime}" FontSize="30" Padding="20" HorizontalAlignment="Center" Foreground="White" TextWrapping="WrapWholeWords"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20">
+                            <TextBlock Text="Last Check: " FontSize="30" Foreground="White" Margin="0 0 11 0"/>
+                            <TextBlock Text="{Binding lastcheck}" FontSize="30" Foreground="White"/>
+                        </StackPanel>
                     </StackPanel>
-
-                    <TextBlock Text="{Binding weather}" FontSize="45" HorizontalAlignment="Center" Padding="20" Foreground="White"/>
-
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20">
-                        <TextBlock Text="Humidity: " FontSize="30" Foreground="White" Margin="0 0 9 0"/>
-                        <TextBlock Text="{Binding relativeHumidity}" FontSize="30" Foreground="White"/>
-                    </StackPanel>
-
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20">
-                        <TextBlock Text="Winds: " FontSize="30" Foreground="White" Margin="0 0 6 0"/>
-                        <TextBlock Text="{Binding windMph}" FontSize="30" Foreground="White"/>
-                        <TextBlock Text=" MPH " FontSize="30" Foreground="White" Margin="0 0 4 0"/>
-                        <TextBlock Text="{Binding windDir}" FontSize="30" Foreground="White"/>
-                    </StackPanel>
-
-                    <TextBlock Text="{Binding observationTime}" FontSize="30" Padding="20" HorizontalAlignment="Center" Foreground="White" TextWrapping="WrapWholeWords"/>
-
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20">
-                        <TextBlock Text="Last Check: " FontSize="30" Foreground="White" Margin="0 0 11 0"/>
-                        <TextBlock Text="{Binding lastcheck}" FontSize="30" Foreground="White"/>
-                    </StackPanel>
-                </StackPanel>
-            </Grid>
-        </ScrollViewer>
+                </Grid>
+            </ScrollViewer>
+        </Viewbox>
+        
 
         <!-- Three Day Forecast Layout -->
-        <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto">
-            <Grid Grid.Column="1">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="2*"/>
-                    <RowDefinition Height="10*"/>
-                </Grid.RowDefinitions>
+        <Viewbox Grid.Column="1">
+            <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto">
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="10*"/>
+                    </Grid.RowDefinitions>
 
-                <TextBlock Text="Three Day Forecast" FontSize="60" HorizontalAlignment="Center" Padding="50" Foreground="White" FontFamily="Tahoma"/>
+                    <TextBlock Text="Three Day Forecast" FontSize="60" HorizontalAlignment="Center" Padding="50" Foreground="White" FontFamily="Tahoma"/>
 
-                <ItemsControl x:ConnectionId='2' Grid.Row="1" Name="_3DayResults" HorizontalAlignment="Center">
-                    <ItemsControl.ItemsPanel>
-                        <ItemsPanelTemplate>
-                            <StackPanel/>
-                        </ItemsPanelTemplate>
-                    </ItemsControl.ItemsPanel>
+                    <ItemsControl x:ConnectionId='2' Grid.Row="1" Name="_3DayResults" HorizontalAlignment="Center">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
 
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <Grid>
-                                <StackPanel Orientation="Horizontal" Margin="10">
-                                    <Image Height="100" Width="100" Source="{Binding ImagePath}"/>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <StackPanel Orientation="Horizontal" Margin="10">
+                                        <Image Height="100" Width="100" Source="{Binding ImagePath}"/>
 
-                                    <StackPanel Orientation="Vertical" Margin="10" >
-                                        <TextBlock Text="{Binding title}" FontSize="30" Foreground="White"/>
-                                        <TextBlock Text="{Binding fcttext}" FontSize="20" Foreground="White" TextWrapping="WrapWholeWords" MaxWidth="700"/>
-                                        <StackPanel Orientation="Horizontal">
-                                            <TextBlock Text="Last Check:" FontSize="20" Foreground="White"/>
-                                            <TextBlock Text="{Binding lastcheck}" FontSize="20" Foreground="White"/>
+                                        <StackPanel Orientation="Vertical" Margin="10" >
+                                            <TextBlock Text="{Binding title}" FontSize="30" Foreground="White"/>
+                                            <TextBlock Text="{Binding fcttext}" FontSize="20" Foreground="White" TextWrapping="WrapWholeWords" MaxWidth="700"/>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Last Check:" FontSize="20" Foreground="White"/>
+                                                <TextBlock Text="{Binding lastcheck}" FontSize="20" Foreground="White"/>
+                                            </StackPanel>
                                         </StackPanel>
-                                    </StackPanel>
 
-                                </StackPanel>
-                            </Grid>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-            </Grid>
-        </ScrollViewer>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Grid>
+            </ScrollViewer>
+        </Viewbox>
     </Grid>
 </Page>
 
