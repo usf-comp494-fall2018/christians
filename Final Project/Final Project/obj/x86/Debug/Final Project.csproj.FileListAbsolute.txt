@@ -46,3 +46,47 @@ C:\Users\Chris\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug
 C:\Users\Chris\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Final Project.pdb
 C:\Users\Chris\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\Final Project.exe
 C:\Users\Chris\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\Final Project.pdb
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\App.xbf
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\MainPage.xbf
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Final Project.xr.xml
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Final Project.exe
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Final Project.pdb
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\resources.pri
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\AppxManifest.xml
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Core\Final Project.exe
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Core\Weather.exe
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Final Project.build.appxrecipe
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\Newtonsoft.Json.pdb
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\bin\x86\Debug\System.Runtime.dll
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\Final Project.csprojAssemblyReference.cache
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\App.g.i.cs
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\App.g.cs
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\MainPage.g.cs
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\App.xaml
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\MainPage.xaml
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\App.xbf
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\MainPage.xbf
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\Final Project.csproj.CoreCompileInputs.cache
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\Final Project.csproj.CopyComplete
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\Final Project.exe
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\Final Project.pdb
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\priconfig.xml
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\layout.resfiles
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\resources.resfiles
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\pri.resfiles
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\qualifiers.txt
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\usfdlu\Source\Repos\christians\Final Project\Final Project\obj\x86\Debug\ProjectArchitectures.txt
